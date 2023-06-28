@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('bgforest.jpg');
+    overflow-x: hidden;
+    min-height: 1000vh;
+    overflow-y: hidden;
+    color: white;
+}
+
+
+.titleBlock {
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
+    width: 280px;
+    height: 40px;
+    right: 650px;
+    top: 140px;
+    color: white;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.name {
+    position: fixed;
+    left: 650px;
+}
+
+.subTitle {
+    position: fixed;
+    left: 650px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.icons {
+    position: fixed;
+    top: 200px;
+    left: 610px;
+    width: 20px;
+}
+
+#fbicon {
+    padding: 20px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    background-color:rgba(0,0,0,0.3);    
+}
+
+#ghubicon {
+    padding: 20px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    background-color:rgba(0,0,0,0.3);    
+}
+
+#mailIcon {
+    padding: 20px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    background-color:rgba(0,0,0,0.3);    
+}
+
+.infoBlock {
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    text-align: center;
+    display: inline-block;
+    left: 110px;
+    top: 60px;
+    width: 170px;
+    height: 264px;
+    color: white;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 2px;
+}
